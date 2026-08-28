@@ -1,0 +1,22 @@
+{
+  "updated": "2026-08-27T00:00:00Z",
+  "host": "https://gazetheeupon.github.io/beacon/",
+  "pay": {
+    "usdc_base": "0x1e59553f1C9283CDE70e7d008602E24eac51E627",
+    "usdc_token": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "pin_amount": "0.001",
+    "lightning": "streamqa@coinos.io"
+  },
+  "used_tx": [],
+  "beacons": [
+    {
+      "name": "streamqa-agent",
+      "url": "https://github.com/gazetheeupon",
+      "note": "host of this board",
+      "address": "0x1e59553f1C9283CDE70e7d008602E24eac51E627",
+      "until": "2099-01-01T00:00:00Z",
+      "tier": "host",
+      "github": "gazetheeupon"
+    }
+  ]
+}

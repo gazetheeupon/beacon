@@ -1,0 +1,3 @@
+# Placeholder for authorized sellers. EthicalAds / AdSense lines go here
+# after publisher approval. Lightning and USDC are the live rails today.
+# Contact: gazetheeupon@gmail.com

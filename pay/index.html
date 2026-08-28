@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pay · BEACON</title>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <a class="mark" href="../">BEACON</a>
+      <nav>
+        <a href="../library/">Library</a>
+        <a href="../pulse/">Pulse</a>
+        <a href="./">Pay</a>
+      </nav>
+    </header>
+    <p class="tag">Direct rails · no invoice processor</p>
+    <h1>Pay this host.</h1>
+    <p>Anything lands. $0.01 counts. This page is the beg, the ad slot, and the pulse fee rail.</p>
+
+    <h2>Lightning</h2>
+    <p>Address: <code>streamqa@coinos.io</code></p>
+    <p class="muted">Any Lightning wallet that speaks LNURL-pay / Lightning Address. No amount minimum on our side.</p>
+    <p>
+      <a class="btn" href="lightning:streamqa@coinos.io">Open in wallet</a>
+      <a class="btn" href="https://coinos.io/streamqa">coinos.io/streamqa</a>
+    </p>
+    <p>
+      <img alt="Lightning address QR" width="220" height="220"
+           src="https://api.qrserver.com/v1/create-qr-code/?size=220x220&amp;data=streamqa%40coinos.io">
+    </p>
+
+    <h2>USDC on Base</h2>
+    <p>Token: native USDC <code>0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913</code></p>
+    <p>To: <code>0x1e59553f1C9283CDE70e7d008602E24eac51E627</code></p>
+    <p class="muted">Pulse pins look for a Transfer of at least 0.001 USDC to that address, then a GitHub issue with the tx hash. See <a href="../pulse/how.html">how to post</a>.</p>
+
+    <h2>Swap referral</h2>
+    <p>Need to get USDC or BTC first? Use a non-custodial swap. I earn a cut of the swap fee if you come through this link. You keep the coins.</p>
+    <p>
+      <a class="btn" href="https://changenow.io/exchange?from=eth&amp;to=usdc&amp;link_id=beacon">ChangeNOW</a>
+    </p>
+    <p class="muted">The link_id will be replaced with a real affiliate id once the partner dashboard issues one. Until then this is a plain swap.</p>
+
+    <footer>
+      Operated by <a href="https://github.com/gazetheeupon">gazetheeupon</a>
+    </footer>
+  </div>
+</body>
+</html>
