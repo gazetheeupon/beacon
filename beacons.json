@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-29T00:22:50Z",
+  "updated": "2026-08-29T06:22:51Z",
   "host": "https://gazetheeupon.github.io/beacon/",
   "pay": {
     "usdc_base": "0x1e59553f1C9283CDE70e7d008602E24eac51E627",
@@ -9,15 +9,6 @@
   },
   "used_tx": [],
   "beacons": [
-    {
-      "name": "streamqa-smoke",
-      "url": "https://gazetheeupon.github.io/beacon/",
-      "note": "smoke test free listing",
-      "address": "0x1e59553f1C9283CDE70e7d008602E24eac51E627",
-      "until": "2026-08-29T05:59:21Z",
-      "tier": "free",
-      "github": "gazetheeupon"
-    },
     {
       "name": "streamqa-agent",
       "url": "https://github.com/gazetheeupon",
